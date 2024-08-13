@@ -8,7 +8,7 @@ import { PiStudentBold } from "react-icons/pi";
 function About() {
   return (
     <div id="about">
-      <FlexUi  type="none" style="flex-col text-center">
+      <FlexUi  type="none" style="flex-col text-center ">
         <Typography
           type="text_secondary_sm"
           content="Get To Know More"

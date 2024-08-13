@@ -5,7 +5,7 @@ import Typography from "../../reusable/Typography";
 function Experience() {
   return (
     <div id="experience" className="mt-72">
-      <FlexUi type="none" style="flex-col text-center">
+      <FlexUi type="none" style="flex-col text-center ">
         <Typography
           type="text_secondary_sm"
           content="Explore My"

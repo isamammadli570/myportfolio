@@ -4,7 +4,7 @@ import Typography from "../../reusable/Typography";
 
 function Projects() {
   return (
-    <div id="projects" className="mt-72">
+    <div id="projects" className="mt-60">
       <FlexUi type="none" style="flex-col md:h-[85vh] mt-[15vh] min-h-fit">
         <Typography
           type="text_secondary_sm"

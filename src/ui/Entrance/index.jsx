@@ -1,4 +1,3 @@
-/* eslint-disable react/no-unescaped-entities */
 import FlexUi from "../../reusable/FlexUi";
 import Typography from "../../reusable/Typography";
 import ImgUi from "../../reusable/ImgUi";
@@ -42,11 +41,11 @@ function Entrance() {
           />
         </FlexUi>
         <FlexUi type="center" style="mt-5 gap-2 text-stone-800 text-3xl">
-          <a href="https://github.com/isamammadli570">
-            <FaGithub className=" cursor-pointer " />
-          </a>
           <a href="https://www.linkedin.com/in/isa-məmmədli-4411aa285">
             <FaLinkedin className=" cursor-pointer " />
+          </a>
+          <a href="https://github.com/isamammadli570">
+            <FaGithub className=" cursor-pointer " />
           </a>
         </FlexUi>
       </FlexUi>

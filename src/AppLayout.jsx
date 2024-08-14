@@ -24,7 +24,7 @@ function AppLayout() {
   }, []);
 
   return (
-    <section className="scroll-smooth h-full">
+    <section className=" h-full">
       <div>
         <div
           className={`absolute h-full transform border-x z-[1000] bg-stone-100 ${

@@ -1,5 +1,6 @@
 /* eslint-disable react/prop-types */
 import { FaGithub, FaLinkedin } from "react-icons/fa";
+
 import FlexUi from "../../reusable/FlexUi";
 import { AiOutlineClose } from "react-icons/ai";
 
@@ -27,10 +28,10 @@ function ResponsiveNav({ setIsOpen }) {
     setIsOpen((open) => !open);
   };
   return (
-    <div data-aos="slide-right">
+    <div data-aos="slide-right" data-aos-duration="200">
       <div className="flex  gap-20 justify-center pt-10">
         <AiOutlineClose
-          className="text-3xl cursor-pointer mt-6   font-semibold "
+          className="text-3xl cursor-pointer mt-6 font-semibold "
           onClick={() => setIsOpen((open) => !open)}
         />
       </div>
@@ -47,13 +48,13 @@ function ResponsiveNav({ setIsOpen }) {
       </FlexUi>
       <FlexUi type="center" style="mt-40 gap-2 text-stone-800 text-3xl">
         <a
-          href="https://github.com/azerrors?tab=repositories"
+          href="https://github.com/isamammadli570"
           className="animate-moveInLeft"
         >
           <FaLinkedin className=" cursor-pointer " />
         </a>
         <a
-          href="https://www.linkedin.com/in/azer-nagiyev-a1b85a247/"
+          href="https://www.linkedin.com/in/isa-məmmədli-4411aa285"
           className="animate-moveInRight"
         >
           <FaGithub className=" cursor-pointer " />

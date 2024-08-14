@@ -29,7 +29,7 @@ function Navbar({ isOpen, setIsOpen }) {
         <ul className="flex text-2xl">
           {Menu?.map((menu) => (
             <li className="p-6" key={menu.name}>
-              <a href={menu.link}>{menu.name}</a>
+              <a className="hover:text-gray-500 hover:border-b-2 duration-200 " href={menu.link}>{menu.name}</a>
             </li>
           ))}
         </ul>

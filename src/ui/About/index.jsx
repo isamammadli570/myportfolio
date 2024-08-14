@@ -8,7 +8,7 @@ import { PiStudentBold } from "react-icons/pi";
 function About() {
   return (
     <div id="about">
-      <FlexUi  type="none" style="flex-col text-center ">
+      <FlexUi type="none" style="flex-col text-center ">
         <Typography
           type="text_secondary_sm"
           content="Get To Know More"
@@ -20,12 +20,15 @@ function About() {
           style="text-center mb-20 hover:skew-x-3 hover:skew-y-2 hover:scale-[1.3]"
         />
 
-        <FlexUi type="center" style="my-0 flex-col md:flex-row  mx-10 gap-20">
-          <ImgUi type="triatry" src={img} style="animate-moveInLeft" />
+        <FlexUi
+          type="center"
+          style="my-0 flex-col md:flex-col lg:flex-row mx-10 gap-20"
+        >
+          <ImgUi type="triatry" src={img} />
 
           <FlexUi type="none" style="flex-col text-center">
             <FlexUi type="center" style="flex-col md:flex-row gap-5">
-              <div className="border-[1px] border-stone-700 w-[350px] md:w-[450px] py-10 rounded-3xl">
+              <div className="border-[1px] border-stone-700  md:w-[350px] lg:w-[450px] py-10 rounded-3xl">
                 <FlexUi
                   type="none"
                   style="flex-col items-center justify-center gap-1"

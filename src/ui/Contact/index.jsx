@@ -25,7 +25,7 @@ const Menu = [
 function Contact() {
   return (
     <div id="contact">
-      <FlexUi type="none" style="flex-col md:h-[70vh] mt-[10vh] min-h-fit ">
+      <FlexUi type="none" style="flex-col">
         <Typography
           type="text_secondary_sm"
           content="Get in Touch"
@@ -62,7 +62,12 @@ function Contact() {
           <ul className="flex md:text-2xl">
             {Menu?.map((menu) => (
               <li className="p-6" key={menu.name}>
-                <a href={menu.link}>{menu.name}</a>
+                <a
+                  className="hover:text-gray-500 hover:border-b-2 duration-200"
+                  href={menu.link}
+                >
+                  {menu.name}
+                </a>
               </li>
             ))}
           </ul>

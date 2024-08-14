@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 /* eslint-disable react/prop-types */
 /* eslint-disable no-undef */
 import FlexUi from "../FlexUi";
@@ -49,7 +50,7 @@ function ListElement({ type, skill, project }) {
       <FlexUi type="none" style="border-2 border-stone-500 p-12 rounded-xl">
         <FlexUi type="none" style="flex-col">
           <div className="border-2 border-stone-500 rounded-2xl">
-            <ImageUi type="triatry" src={image} />
+            <ImageUi type="triatry" style="w-full" src={image} />
           </div>
           <FlexUi type="none" style="md:w-[400px] mt-5 gap-2 flex-wrap">
             {tech?.map((tech) => {
@@ -69,8 +70,8 @@ function ListElement({ type, skill, project }) {
               <Typography type="header_primary_md" content={name} />
             </FlexUi>
             <FlexUi type="none" style="gap-2">
-              <ButtonUi type="primary_sm" content="GitHub" />
-              <ButtonUi type="primary_sm" content="Live Demo" />
+              <ButtonUi type="primary_sm" content="GitHub" link={github} />
+              <ButtonUi type="secondary_sm" content="Live Demo" link={demo} />
             </FlexUi>
           </FlexUi>
         </FlexUi>

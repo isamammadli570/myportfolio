@@ -36,8 +36,8 @@ function Contact() {
           content="Contact Me"
           style="text-center mb-20 hover:skew-x-3 hover:skew-y-2 hover:scale-[1.3]"
         />
-        <FlexUi type="center" style="text-2xl">
-          <div className="border-2 border-stone-950 rounded-2xl flex gap-10 p-7 ">
+        <FlexUi type="center" style="md:text-2xl">
+          <div className="border-2 border-stone-950 rounded-2xl flex gap-10 md:p-7 p-4 ">
             <div className="flex items-center gap-2">
               <BiLogoGmail />
               <a
@@ -59,7 +59,7 @@ function Contact() {
           </div>
         </FlexUi>
         <FlexUi type="center" style="mt-60">
-          <ul className="flex text-2xl">
+          <ul className="flex md:text-2xl">
             {Menu?.map((menu) => (
               <li className="p-6" key={menu.name}>
                 <a href={menu.link}>{menu.name}</a>
@@ -70,6 +70,7 @@ function Contact() {
         <FlexUi type="center" style="mt-6">
           <Typography
             type="text_secondary_sm"
+            style="text-xs"
             content="Copyright © 2024 Isa Mammadli. All Rights Reserved."
           />
         </FlexUi>

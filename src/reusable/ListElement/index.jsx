@@ -51,7 +51,7 @@ function ListElement({ type, skill, project }) {
           <div className="border-2 border-stone-500 rounded-2xl">
             <ImageUi type="triatry" src={image} />
           </div>
-          <FlexUi type="none" style="w-[400px] mt-5 gap-2 flex-wrap">
+          <FlexUi type="none" style="md:w-[400px] mt-5 gap-2 flex-wrap">
             {tech?.map((tech) => {
               return (
                 <div key={tech}>

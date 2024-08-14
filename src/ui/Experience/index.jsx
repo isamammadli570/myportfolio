@@ -20,7 +20,7 @@ function Experience() {
           <FlexUi type="around" style="flex-col gap-10 md:flex-row">
             <FlexUi
               type="none"
-              style="flex-col  md:w-auto  w-screen  border-2 border-stone-400 rounded-3xl p-10"
+              style="flex-col  md:w-auto w-[350px] border-2 border-stone-400 rounded-3xl p-10"
             >
               <Typography
                 type="text_secondary_lg"
@@ -32,7 +32,7 @@ function Experience() {
             <FlexUi type="none" style="flex-col gap-10">
               <FlexUi
                 type="none"
-                style="flex-col  md:w-auto  w-screen  border-2 border-stone-400 rounded-3xl p-10"
+                style="flex-col  md:w-auto w-[350px] border-2 border-stone-400 rounded-3xl p-10"
               >
                 <Typography
                   type="text_secondary_lg"
@@ -44,7 +44,7 @@ function Experience() {
 
               <FlexUi
                 type="none"
-                style="flex-col md:w-auto  w-screen  border-2 border-stone-400 rounded-3xl p-10"
+                style="flex-col md:w-auto w-[350px] border-2 border-stone-400 rounded-3xl p-10"
               >
                 <Typography
                   type="text_secondary_lg"

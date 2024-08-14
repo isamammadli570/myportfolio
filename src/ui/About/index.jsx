@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import FlexUi from "../../reusable/FlexUi";
 import ImgUi from "../../reusable/ImgUi";
 import img from "../../assets/aristotle.jpg";
@@ -62,12 +63,15 @@ function About() {
               </div>
             </FlexUi>
             <p className="md:w-[50rem] mt-5">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos,
-              ratione! Minus error quidem nesciunt rerum maiores corrupti
-              itaque, mollitia hic quibusdam maxime similique veritatis delectus
-              voluptatum quaerat modi magni cupiditate quo veniam distinctio
-              laudantium? Eius accusantium voluptas debitis mollitia quo?
+              I've been working with React.js for a year, focusing on building
+              dynamic and responsive user interfaces. My experience includes
+              using tools like React Query for efficient data fetching and state
+              management, as well as leveraging the Context API for handling
+              global state across the application. I strive to create clean,
+              maintainable code and continually enhance my skills to deliver
+              high-quality, user-friendly web applications.
             </p>
+    
           </FlexUi>
         </FlexUi>
       </FlexUi>

@@ -24,7 +24,7 @@ const Menu = [
 
 function Navbar({ isOpen, setIsOpen }) {
   return (
-    <FlexUi type="around" style="pt-10">
+    <FlexUi type="around" style="pt-10 bg-white">
       <FlexUi type="none" style="hidden md:flex">
         <ul className="flex text-2xl">
           {Menu?.map((menu) => (

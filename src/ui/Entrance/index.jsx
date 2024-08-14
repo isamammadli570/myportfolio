@@ -4,12 +4,13 @@ import ImgUi from "../../reusable/ImgUi";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import img from "../../assets/aristotle.jpg";
 import resume from "../../assets/IsaMammadliResume.pdf";
+import DarkMode from "../DarkMode";
 
 function Entrance() {
   return (
     <FlexUi
       type="center"
-      style="mx-20 h-[50rem] md:flex-row flex-col min-h-fit text-center gap-12	"
+      style="mx-20 bg-white h-[50rem] md:flex-row flex-col min-h-fit text-center gap-12	"
     >
       <ImgUi type="primary" src={img} />
       <FlexUi type="center" style="flex-col gap-2 ">
@@ -41,6 +42,9 @@ function Entrance() {
           </a>
         </FlexUi>
       </FlexUi>
+      <div>
+        <DarkMode />
+      </div>
     </FlexUi>
   );
 }

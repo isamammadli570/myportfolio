@@ -24,7 +24,7 @@ const Menu = [
 
 function Contact() {
   return (
-    <div id="contact">
+    <div id="contact" className="mt-40">
       <FlexUi type="none" style="flex-col">
         <Typography
           type="text_secondary_sm"
@@ -41,17 +41,17 @@ function Contact() {
             <div className="flex items-center gap-2">
               <BiLogoGmail className="dark:text-stone-100" />
               <a
-                href="https://mail.google.com"
+                href="https://mail.google.com/mail/u/0/#sent?compose=DmwnWtVdLxnRthxpxMgffbqwvzVRWhSJHDVZgtStcWbjWfwqTQgmxvhDFsZrLRCTBqxbfNVDfJsV"
                 className="hover:text-gray-500 dark:hover:text-gray-700
                  dark:text-stone-100 hover:border-b-2 duration-200"
               >
-                Example@gmail.com
+                isamammadlee@gmail.com
               </a>
             </div>
             <div className="flex items-center gap-2">
               <FaLinkedin className="dark:text-stone-100" />
               <a
-                href="https://www.linkedin.com"
+                href="https://www.linkedin.com/in/isa-məmmədli-4411aa285"
                 className="hover:text-gray-500 dark:hover:text-gray-700
                  dark:text-stone-100 hover:border-b-2 duration-200"
               >

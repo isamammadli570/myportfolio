@@ -13,7 +13,7 @@ function ListElement({ type, skill, project }) {
     const { name, status } = skill;
     return (
       <FlexUi type="none" style="gap-3 items-center ">
-        <HiCheckBadge className="md:text-3xl text-xl dark:text-stone-200" />
+        <HiCheckBadge className="hidden md:block md:text-3xl text-xl dark:text-stone-200" />
         <FlexUi type="none" style="flex-col gap-2">
           <Typography
             style="dark:text-zinc-400"
@@ -33,7 +33,7 @@ function ListElement({ type, skill, project }) {
     const { name } = skill;
     return (
       <FlexUi type="none" style="gap-3 items-center ">
-        <RiTeamFill className="md:text-3xl text-xl dark:text-stone-200" />
+        <RiTeamFill className="hidden md:block md:text-3xl text-xl dark:text-stone-200" />
         <FlexUi type="none" style="flex-col gap-2">
           <Typography
             style="dark:text-zinc-400"
@@ -48,7 +48,7 @@ function ListElement({ type, skill, project }) {
     const { name, status } = skill;
     return (
       <FlexUi type="none" style="gap-3 items-center">
-        <HiLanguage className="text-2xl dark:text-stone-200" />
+        <HiLanguage className="hidden md:block text-2xl dark:text-stone-200" />
         <FlexUi type="none" style="flex-col gap-2">
           <Typography
             style="dark:text-zinc-400"

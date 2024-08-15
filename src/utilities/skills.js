@@ -1,5 +1,5 @@
 export const hardSkills = [
-  { id: "1", name: "HTML", status: "Experienced" },
+  { id: "1", name: "HTML", status: "Intermediate" },
   { id: "2", name: "CSS", status: "Intermediate" },
   { id: "3", name: "JavaScript", status: "Intermediate" },
   { id: "4", name: "React", status: "Intermediate" },

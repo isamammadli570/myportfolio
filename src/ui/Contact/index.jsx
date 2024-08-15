@@ -29,29 +29,31 @@ function Contact() {
         <Typography
           type="text_secondary_sm"
           content="Get in Touch"
-          style="text-center mb-1 hover:skew-x-3 hover:skew-y-2 hover:scale-[1.3]"
+          style="text-center dark:text-zinc-400 mb-1 hover:skew-x-3 hover:skew-y-2 hover:scale-[1.3]"
         />
         <Typography
           type="header_primary_lg"
           content="Contact Me"
-          style="text-center mb-20 hover:skew-x-3 hover:skew-y-2 hover:scale-[1.3]"
+          style="text-center dark:text-stone-100 mb-20 hover:skew-x-3 hover:skew-y-2 hover:scale-[1.3]"
         />
         <FlexUi type="center" style="md:text-2xl">
-          <div className="border-2 border-stone-950 rounded-2xl flex gap-10 md:p-7 p-4 ">
+          <div className="border-2 border-stone-950 dark:border-stone-300 rounded-2xl flex gap-10 md:p-7 p-4 ">
             <div className="flex items-center gap-2">
-              <BiLogoGmail />
+              <BiLogoGmail className="dark:text-stone-100" />
               <a
                 href="https://mail.google.com"
-                className="hover:text-gray-500 hover:border-b-2 duration-200"
+                className="hover:text-gray-500 dark:hover:text-gray-700
+                 dark:text-stone-100 hover:border-b-2 duration-200"
               >
                 Example@gmail.com
               </a>
             </div>
             <div className="flex items-center gap-2">
-              <FaLinkedin />
+              <FaLinkedin className="dark:text-stone-100" />
               <a
                 href="https://www.linkedin.com"
-                className="hover:text-gray-500 hover:border-b-2 duration-200"
+                className="hover:text-gray-500 dark:hover:text-gray-700
+                 dark:text-stone-100 hover:border-b-2 duration-200"
               >
                 Linkedln
               </a>
@@ -63,7 +65,8 @@ function Contact() {
             {Menu?.map((menu) => (
               <li className="p-6" key={menu.name}>
                 <a
-                  className="hover:text-gray-500 hover:border-b-2 duration-200"
+                  className="hover:text-gray-500 dark:hover:text-gray-700 
+                  hover:border-b-2 dark:text-stone-100 duration-200"
                   href={menu.link}
                 >
                   {menu.name}
@@ -75,7 +78,7 @@ function Contact() {
         <FlexUi type="center" style="mt-6">
           <Typography
             type="text_secondary_sm"
-            style="text-xs"
+            style="text-xs dark:text-stone-400"
             content="Copyright © 2024 Isa Mammadli. All Rights Reserved."
           />
         </FlexUi>

@@ -24,17 +24,26 @@ const Menu = [
 
 function Navbar({ isOpen, setIsOpen }) {
   return (
-    <FlexUi type="around" style="pt-10 bg-white">
+    <FlexUi
+      type="around"
+      style="pt-10 bg-stone-100 dark:bg-neutral-800 
+    duration-200 dark:text-stone-100"
+    >
       <FlexUi type="none" style="hidden md:flex">
         <ul className="flex text-2xl">
           {Menu?.map((menu) => (
             <li className="p-6" key={menu.name}>
-              <a className="hover:text-gray-500 hover:border-b-2 duration-200 " href={menu.link}>{menu.name}</a>
+              <a
+                className="hover:text-gray-500 hover:border-b-2 duration-200 "
+                href={menu.link}
+              >
+                {menu.name}
+              </a>
             </li>
           ))}
         </ul>
       </FlexUi>
-      <div >
+      <div>
         {!isOpen && (
           <CgDetailsMore
             onClick={() => setIsOpen((open) => !open)}

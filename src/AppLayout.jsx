@@ -24,7 +24,10 @@ function AppLayout() {
   }, []);
 
   return (
-    <section className="bg-white h-full">
+    <section
+      className="bg-stone-100 dark:bg-neutral-800 duration-200 
+    scroll-smooth h-full"
+    >
       <div>
         <div
           className={`absolute h-full transform border-x z-[1000] bg-stone-100 ${

@@ -13,12 +13,12 @@ function About() {
         <Typography
           type="text_secondary_sm"
           content="Get To Know More"
-          style="text-center mb-1 hover:skew-x-3 hover:skew-y-2 hover:scale-[1.3]"
+          style="dark:text-zinc-400 text-center mb-1 hover:skew-x-3 hover:skew-y-2 hover:scale-[1.3]"
         />
         <Typography
           type="header_primary_lg"
           content="About Me"
-          style="text-center mb-20 hover:skew-x-3 hover:skew-y-2 hover:scale-[1.3]"
+          style="dark:text-stone-100 text-center mb-20 hover:skew-x-3 hover:skew-y-2 hover:scale-[1.3]"
         />
 
         <FlexUi
@@ -29,40 +29,55 @@ function About() {
 
           <FlexUi type="none" style="flex-col text-center">
             <FlexUi type="center" style="flex-col md:flex-row gap-5">
-              <div className="border-[1px] border-stone-700  md:w-[350px] lg:w-[450px] py-10 rounded-3xl">
+              <div className="border-[1px] border-stone-700 dark:border-stone-300 md:w-[350px] lg:w-[450px] py-10 rounded-3xl">
                 <FlexUi
                   type="none"
                   style="flex-col items-center justify-center gap-1"
                 >
-                  <IoMdMedal className="text-2xl" />
-                  <Typography type="header_primary_md" content="Experience" />
-                  <Typography type="text_secondary_sm" content="1+ years" />
+                  <IoMdMedal className="text-2xl dark:text-stone-200" />
+                  <Typography
+                    style="dark:text-stone-100"
+                    type="header_primary_md"
+                    content="Experience"
+                  />
+                  <Typography
+                    style="dark:text-zinc-400"
+                    type="text_secondary_sm"
+                    content="1+ years"
+                  />
                   <Typography
                     type="text_secondary_sm"
                     content="FrontEnd Development"
+                    style="dark:text-zinc-400"
                   />
                 </FlexUi>
               </div>
 
-              <div className="border-[1px] border-stone-700 w-[350px] md:w-[450px] py-10 rounded-3xl">
+              <div className="border-[1px] border-stone-700 dark:border-stone-300 w-[350px] md:w-[450px] py-10 rounded-3xl">
                 <FlexUi
                   type="none"
                   style="flex-col items-center justify-center gap-1"
                 >
-                  <PiStudentBold className="text-2xl" />
-                  <Typography type="header_primary_md" content="Education" />
+                  <PiStudentBold className="text-2xl dark:text-stone-200" />
                   <Typography
+                    style="dark:text-stone-100"
+                    type="header_primary_md"
+                    content="Education"
+                  />
+                  <Typography
+                    style="dark:text-zinc-400"
                     type="text_secondary_sm"
                     content="Azerbaijan University of Economy"
                   />
                   <Typography
                     type="text_secondary_sm"
                     content="Bachelors Degree"
+                    style="dark:text-zinc-400"
                   />
                 </FlexUi>
               </div>
             </FlexUi>
-            <p className="md:w-[50rem] mt-5">
+            <p className="md:w-[50rem] mt-5 dark:text-zinc-400">
               I've been working with React.js for a year, focusing on building
               dynamic and responsive user interfaces. My experience includes
               using tools like React Query for efficient data fetching and state
@@ -71,7 +86,6 @@ function About() {
               maintainable code and continually enhance my skills to deliver
               high-quality, user-friendly web applications.
             </p>
-    
           </FlexUi>
         </FlexUi>
       </FlexUi>

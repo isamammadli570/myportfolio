@@ -9,12 +9,12 @@ function Experience() {
         <Typography
           type="text_secondary_sm"
           content="Explore My"
-          style="text-center mb-1 hover:skew-x-3 hover:skew-y-2 hover:scale-[1.3]"
+          style="dark:text-zinc-400 text-center mb-1 hover:skew-x-3 hover:skew-y-2 hover:scale-[1.3]"
         />
         <Typography
           type="header_primary_lg"
           content="Experience"
-          style="text-center mb-20 hover:skew-x-3 hover:skew-y-2 hover:scale-[1.3]"
+          style="dark:text-stone-100 text-center mb-20 hover:skew-x-3 hover:skew-y-2 hover:scale-[1.3]"
         />
         <div>
           <FlexUi type="around" style="flex-col gap-10 md:flex-row">
@@ -25,7 +25,7 @@ function Experience() {
               <Typography
                 type="text_secondary_lg"
                 content="Frontend Development"
-                style="text-center mb-1"
+                style="text-center mb-1 dark:text-zinc-400"
               />
               <List type="hardskills" />
             </FlexUi>
@@ -37,7 +37,7 @@ function Experience() {
                 <Typography
                   type="text_secondary_lg"
                   content="Soft Skills"
-                  style="text-center mb-1"
+                  style="text-center mb-1 dark:text-zinc-400"
                 />
                 <List type="softskills" />
               </FlexUi>
@@ -49,7 +49,7 @@ function Experience() {
                 <Typography
                   type="text_secondary_lg"
                   content="Language"
-                  style="text-center mb-1"
+                  style="text-center mb-1 dark:text-zinc-400"
                 />
                 <List type="languageskills" />
               </FlexUi>

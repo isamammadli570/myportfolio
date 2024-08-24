@@ -25,15 +25,16 @@ function AppLayout() {
 
   return (
     <section
-      className="bg-stone-100 dark:bg-neutral-800 duration-200 
+      className="bg-stone-100 dark:bg-neutral-800 dark:text-stone-100
     scroll-smooth h-full"
     >
       <div>
         <div
-          className={`absolute h-full transform border-x z-[1000] bg-stone-100
-             dark:bg-neutral-800 dark:text-stone-100 ${
-            !isOpen ? "hidden -translate-x-full opacity-0" : "translate-x-0"
-          } h-screen w-72 transition-transform duration-700`}
+          className={
+            isOpen
+              ? "fixed top-0 left-0 w-[300px] h-screen bg-stone-100 dark:bg-neutral-800 z-10 duration-300"
+              : "fixed top-0 left-[-100%] w-[300px] h-screen bg-stone-100 dark:bg-neutral-800 z-10 duration-300"
+          }
         >
           {isOpen && <ResponsiveNav setIsOpen={setIsOpen} />}
         </div>

@@ -29,7 +29,7 @@ function About() {
 
           <FlexUi type="none" style="flex-col text-center">
             <FlexUi type="center" style="flex-col md:flex-row gap-5">
-              <div className="border-[1px] border-stone-700 dark:border-stone-300 md:w-[350px] lg:w-[450px] py-10 rounded-3xl">
+              <div className="border-[1px] border-stone-700 dark:border-stone-300 w-[310px] md:w-[350px] lg:w-[450px] py-10 rounded-3xl">
                 <FlexUi
                   type="none"
                   style="flex-col items-center justify-center gap-1"
@@ -53,7 +53,7 @@ function About() {
                 </FlexUi>
               </div>
 
-              <div className="border-[1px] border-stone-700 dark:border-stone-300 w-[350px] md:w-[450px] py-10 rounded-3xl">
+              <div className="border-[1px] border-stone-700 dark:border-stone-300 w-[310px] md:w-[350px] lg:w-[450px] py-10 rounded-3xl">
                 <FlexUi
                   type="none"
                   style="flex-col items-center justify-center gap-1"

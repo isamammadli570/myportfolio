@@ -47,17 +47,11 @@ function ResponsiveNav({ setIsOpen }) {
         </ul>
       </FlexUi>
       <FlexUi type="center" style="mt-40 gap-2 text-stone-800 text-3xl">
-        <a
-          href="https://github.com/isamammadli570"
-          className="animate-moveInLeft"
-        >
-          <FaLinkedin className=" cursor-pointer " />
+        <a href="https://github.com/isamammadli570">
+          <FaLinkedin className="cursor-pointer dark:text-stone-100" />
         </a>
-        <a
-          href="https://www.linkedin.com/in/isa-məmmədli-4411aa285"
-          className="animate-moveInRight"
-        >
-          <FaGithub className=" cursor-pointer " />
+        <a href="https://www.linkedin.com/in/isa-məmmədli-4411aa285">
+          <FaGithub className="cursor-pointer dark:text-stone-100 " />
         </a>
       </FlexUi>
     </div>

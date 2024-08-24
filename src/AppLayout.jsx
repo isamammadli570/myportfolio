@@ -30,7 +30,8 @@ function AppLayout() {
     >
       <div>
         <div
-          className={`absolute h-full transform border-x z-[1000] bg-stone-100 ${
+          className={`absolute h-full transform border-x z-[1000] bg-stone-100
+             dark:bg-neutral-800 dark:text-stone-100 ${
             !isOpen ? "hidden -translate-x-full opacity-0" : "translate-x-0"
           } h-screen w-72 transition-transform duration-700`}
         >
